@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.centertext{
+    text-align: center;
+}
+
+#home .carousel-inner .carousel-item h5, #home .carousel-inner .carousel-item h3{
+    text-shadow: 0 0 30px rgba(0, 0, 0, 2);
+    color: #fafffb;
+}
+
+.judul{
+    text-align: center;
+    padding-top: 38px;
+    color: #575757;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+.judulb{
+    text-align: center;
+    color: #575757;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+.judul-putih{
+    text-align: center;
+    padding-top: 38px;
+    color: #fafffb;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+.judul-putihb{
+    color: #fafffb;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    font-weight: lighter;
+}
+
+.text-shad-put{
+    text-align: center;
+    color: #fafffb;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+#carouselExampleCaptions .carousel-inner {
+    height: 100vh;
+    padding-top: 55px;
+}
+
+.carousel-item{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carouselimg1{
+    background-image: url(../img/slider/igor-miske-JVSgcV8_vb4-unsplash.png);
+}
+
+.carouselimg2{
+    background-image: url(../img/portfolio/6.png);
+}
+
+.carouselimg3{
+    background-image: url(../img/boot/jumbotron-bg.jpg);
+}
+
+.carousel-caption h3{
+    text-transform: uppercase;
+}
+
+.carousel-caption h5{
+    text-transform: capitalize;
+}
+
+.carousel-indicators{
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: transparent; 
+    border: none;
+}
+
+.carousel-control-prev span, .carousel-control-next span{
+    text-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    color: #fafffb;
+}
