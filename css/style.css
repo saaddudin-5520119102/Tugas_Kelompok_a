@@ -143,3 +143,71 @@ html{
     position: relative;
     height: 95vh;
 }
+
+#team::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(../img/portfolio/5.png);
+    filter: grayscale(90%);
+    z-index: -1;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralaxjudul {
+    position: relative;
+}
+
+.hitam-lapis{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.teamimg{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 0 15px;
+}
+
+.teamimgcont{
+    width: 210px;
+    height: 210px;
+    margin: 15px 3px 15px 3px;
+    box-sizing: border-box;
+}
+
+.teamimg img{
+    filter: grayscale(0.9);
+    border-radius: 100%;
+    max-width: 200px;
+    transition: width 50s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .9);
+}
+
+.teamimg img:hover{
+    max-width: 210px;
+    width: 210px;
+}
+
+.butcust1{
+    border: 2px #28a746 solid ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    margin-top: 20px;
+}
+
+#galery{
+    background-color: #fafafa;
+}
+
+.galeryimg{
+    margin-bottom: 30px;
+}
