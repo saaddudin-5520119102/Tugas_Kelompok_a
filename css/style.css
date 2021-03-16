@@ -308,7 +308,6 @@ html{
  .social-media{
      width: 100%;
      background-color: #fafffb;
-     /* background-color: seagreen; */
      border-radius: 5px;
      height: 100%;
      overflow: hidden;
@@ -318,7 +317,6 @@ html{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* background-color: #28a746; */
     justify-content: center;
  }
 
@@ -326,4 +324,97 @@ html{
     width: 80px;
     margin: 1px 7px 7px 7px;
     border-radius: 5px;
+}
+
+/* Responsive configuration */
+
+@media screen and (max-width: 991px){
+    .mycard{
+        flex-wrap: wrap;
+    }
+    
+    .social-media img{
+        width: 75px;
+        margin: 1px 7px 7px 7px;
+        border-radius: 5px;
+    }   
+    
+    .gambarcard{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+
+    .ketermd{
+        display: none;
+    }
+
+    .social-media{
+        width: 100%;
+        background-color: #fafffb;
+        border-radius: 5px;
+        height: 108%;
+        overflow: hidden;
+    }
+
+    .contactlang{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 689px){
+    .teamimgcont{
+        width: 150px;
+        height: 150px;
+        margin: 5px 3px 5px 3px;
+        box-sizing: border-box;
+    }
+    
+    .teamimg img{
+        filter: grayscale(0.9);
+        border-radius: 100%;
+        max-width: 140px;
+        transition: width 50s;
+        box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    }
+    
+    .teamimg img:hover{
+        max-width: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 509px){
+    .teamimgcont{
+        width: 90px;
+        height: 90px;
+        margin: 15px 3px 15px 3px;
+        box-sizing: border-box;
+    }
+    
+    .teamimg img{
+        filter: grayscale(0.9);
+        border-radius: 100%;
+        max-width: 80px;
+        transition: width 50s;
+        box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    }
+    
+    .teamimg img:hover{
+        max-width: 90px;
+        width: 90px;
+    }
+
+    .ketermd{
+        display: none;
+    }
 }
