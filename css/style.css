@@ -211,3 +211,119 @@ html{
 .galeryimg{
     margin-bottom: 30px;
 }
+
+#contact{
+    background-color: #353536;
+}
+
+
+.contactlang{
+    width: 100%;
+    overflow: hidden;
+}
+
+.contactform{
+    width: 100%;
+    height: 100%;
+}
+
+.inputan{
+    width: 100%;
+    height: 55px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.contactform form  input{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    outline: none;
+    color: #fafffb;
+    background-color: transparent;
+}
+
+.labelform{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px #fafffb solid;
+}
+
+.labelform span{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    pointer-events: none;
+    color: #fafffb;
+    transition: all 0.4s ease;
+}
+
+.labelform::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px seagreen solid;
+    bottom: -1px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+}
+
+.contactform form .inputano input:focus + .labelform span, 
+.contactform form .inputanaakt input:valid + .labelform span{
+   bottom: 53%;
+   font-size: 14px;
+   color: seagreen;
+}
+ 
+.contactform form .inputanaakt input:invalid + .labelform span{
+    bottom: 53%;
+    font-size: 14px;
+    color: #a33b3b;
+ }
+ 
+ .contactform form .inputanaakt input:invalid{
+    color: #a33b3b;
+ }
+
+.contactform form input:focus + .labelform::after, 
+.contactform form input:valid + .labelform::after{
+   transform: translateX(0%);
+}
+
+.contactform form .inputanaakt input:invalid + .labelform::after{
+    transform: translateX(0%);
+    border-bottom: 2px #a33b3b solid;
+ }
+
+ .social-media{
+     width: 100%;
+     background-color: #fafffb;
+     /* background-color: seagreen; */
+     border-radius: 5px;
+     height: 100%;
+     overflow: hidden;
+ }
+
+ .gambsosmed{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: #28a746; */
+    justify-content: center;
+ }
+
+ .social-media img{
+    width: 80px;
+    margin: 1px 7px 7px 7px;
+    border-radius: 5px;
+}
